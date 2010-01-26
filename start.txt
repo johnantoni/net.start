@@ -1,0 +1,9 @@
+When running Windows 7 64-bit + IIS, if you get a message refering to libraries it couldn't load in (even though they were added via right-click add-references)
+
+	open iis, application pools, yours, advanced settings, make sure you set your app pool in IIS to allow 32bit applications
+
+	http://www.alexjamesbrown.com/uncategorized/could-not-load-file-or-assembly-chilkatdotnet2-or-one-of-its-dependencies-an-attempt-was-made-to-load-a-program-with-an-incorrect-format/
+
+cannot create state
+
+	services / make sure ASP.NET State Server has started
